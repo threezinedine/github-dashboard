@@ -1,0 +1,31 @@
+.dash-board{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+:root {
+    --add-btn-icon-size: 50px;
+    --add-btn-margin-bottom: 20px;
+}
+
+
+.add-btn {
+    position: fixed;
+    right: var(--add-btn-margin-bottom);
+    bottom: var(--add-btn-margin-bottom);
+    display: inline-block;
+    background-color: #0ffff5;
+    border-radius: 50%;
+    color: #fff;
+    width: var(--add-btn-icon-size);
+    height: var(--add-btn-icon-size);
+    text-align: center;
+    line-height: var(--add-btn-icon-size);
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #00beca;
+}

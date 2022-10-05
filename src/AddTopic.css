@@ -1,0 +1,113 @@
+.modal {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.confirm-form,
+.add-topic-form {
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.add-topic-form {
+    min-width: 70%;
+    padding: 40px;
+}
+
+
+.confirm-form {
+    padding: 30px 50px;
+}
+
+
+
+.input-text,
+.input-select {
+    display: flex;
+}
+
+input, 
+select {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin: 10px 0px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+
+.input-label {
+    padding: 10px;
+    min-width: 15%;
+}
+
+.input-text > input {
+    flex:1;
+    font-size: 18px;
+    font-style: italic;
+    color: #888;
+}
+
+
+input:focus-visible,
+select:focus-visible{
+    outline: none;
+}
+
+
+.confirm-form > .submit-btn-group {
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.submit-btn-group {
+    display: flex;
+    color: #fff;
+    flex-direction: row-reverse;
+}
+
+
+.cancel-btn {
+    color: #333;
+    background-color: #fff;
+}
+
+.cancel-btn:hover {
+    background-color: #bbb;
+}
+
+
+.submit-btn {
+    color: #fff;
+    background-color: #333;
+}
+
+
+.submit-btn:hover {
+    background-color: #aaa;
+}
+
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.form-label-remove-topic {
+    margin-bottom: 30px;
+}
